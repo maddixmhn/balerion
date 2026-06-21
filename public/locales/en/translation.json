@@ -1,0 +1,219 @@
+{
+  "app": {
+    "name": "Dashyar",
+    "tagline": "Modern Software Product Studio",
+    "description": "Web, mobile, AI, and product engineering partner"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "admin": "Admin Panel",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Build Better Digital Products",
+    "subtitle": "Dashyar helps teams launch scalable products with clear design, robust architecture, and business-focused execution.",
+    "cta_primary": "Explore Services",
+    "cta_secondary": "Start a Project"
+  },
+  "home": {
+    "cta": {
+      "title": "Need a reliable tech team for your next product?",
+      "subtitle": "Share your business goals with us. We turn ideas into production-ready systems."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "End-to-end delivery from product strategy to development and growth.",
+    "web_development": {
+      "title": "Web Development",
+      "description": "Fast, secure web applications built with modern frontend and backend stacks."
+    },
+    "mobile_app": {
+      "title": "Mobile Development",
+      "description": "Cross-platform and native mobile apps focused on performance and usability."
+    },
+    "ai": {
+      "title": "AI Solutions",
+      "description": "Applied AI for automation, prediction, and smart customer experiences."
+    },
+    "design": {
+      "title": "UI/UX Design",
+      "description": "User-centric design systems and interfaces aligned with your product goals."
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "description": "Infrastructure, CI/CD, observability, and secure deployment pipelines."
+    },
+    "security": {
+      "title": "Security Engineering",
+      "description": "Practical security hardening for applications, APIs, and infrastructure."
+    },
+    "performance": {
+      "title": "Performance Optimization",
+      "description": "Measure, tune, and improve runtime performance across your stack."
+    },
+    "cta": {
+      "title": "Looking for a custom implementation?",
+      "subtitle": "We can design and build a solution tailored to your workflow and budget."
+    },
+    "order_project": "Request a Project",
+    "technologies": "Technologies",
+    "features": "Features"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Selected product and software delivery case studies.",
+    "all": "All",
+    "website": "Website",
+    "app": "App",
+    "graphic": "Design",
+    "view_details": "View Details",
+    "technologies": "Technologies",
+    "client": "Client",
+    "project_url": "Project URL",
+    "github": "GitHub"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Experienced engineers and designers focused on outcomes.",
+    "experience": "Years of Experience",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Dashyar is a software studio delivering practical digital products for startups and enterprises.",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "awards": "Awards",
+      "experience": "Years Experience"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Let us know what you are building.",
+    "city": "Tehran, Iran",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "form": {
+      "title": "Send a Message",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message was sent successfully.",
+      "error": "Could not send your message. Please try again."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "subtitle": "Access your Dashyar account.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "loading": "Signing in...",
+      "success": "Logged in successfully.",
+      "failed": "Login failed.",
+      "forgot_password": "Forgot password?",
+      "no_account": "Don't have an account?",
+      "register": "Create account"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Set up your account to manage projects and messages.",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "password": "Password",
+      "password_confirm": "Confirm Password",
+      "submit": "Register",
+      "loading": "Creating account...",
+      "success": "Registration completed.",
+      "failed": "Registration failed.",
+      "password_mismatch": "Passwords do not match.",
+      "accept_terms": "Please accept terms and conditions.",
+      "terms_label": "I agree to terms and conditions.",
+      "has_account": "Already have an account?",
+      "login": "Login"
+    },
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "profile": "Profile",
+    "messages": "Messages",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "edit_profile": "Edit Profile",
+    "change_password": "Change Password",
+    "new_message": "New Message",
+    "send_message": "Send Message",
+    "no_messages": "No messages yet.",
+    "no_notifications": "No notifications yet.",
+    "mark_all_read": "Mark all as read"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "messages": "Messages",
+    "settings": "Settings",
+    "statistics": "Statistics",
+    "total_users": "Total Users",
+    "total_projects": "Total Projects",
+    "total_messages": "Total Messages",
+    "pending_messages": "Pending Messages"
+  },
+  "language": {
+    "fa": "Persian",
+    "en": "English",
+    "switch": "Switch language"
+  },
+  "footer": {
+    "tagline": "We build practical software systems that ship and scale.",
+    "quick_links": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view_all": "View all",
+    "read_more": "Read more",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
