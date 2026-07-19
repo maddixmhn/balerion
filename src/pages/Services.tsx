@@ -19,7 +19,7 @@ export default function Services() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t('services.title')} - Dashyar`;
+    document.title = `${t('services.title')} - Balerion`;
   }, [t]);
 
   return (

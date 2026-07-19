@@ -73,7 +73,7 @@ export default function Navbar() {
             title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
           >
             <span className="text-2xl font-extrabold bg-gradient-to-r from-primary to-cyan-400 bg-clip-text text-transparent">
-              Dashyar
+              Balerion
             </span>
             {isDark ? <Sun className="h-4 w-4 text-primary" /> : <Moon className="h-4 w-4 text-primary" />}
           </button>
@@ -219,7 +219,7 @@ export default function Navbar() {
                     onClick={toggleTheme}
                     className="flex items-center gap-2 rounded-xl px-2 py-1.5 hover:bg-accent"
                   >
-                    <span className="text-xl font-bold">Dashyar</span>
+                    <span className="text-xl font-bold">Balerion</span>
                     {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                   </button>
 

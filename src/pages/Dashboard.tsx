@@ -36,7 +36,7 @@ export default function Dashboard() {
   });
 
   useEffect(() => {
-    document.title = isRTL ? 'داشبورد - Dashyar' : 'Dashboard - Dashyar';
+    document.title = isRTL ? 'داشبورد - Balerion' : 'Dashboard - Balerion';
   }, [isRTL]);
 
   const unreadMessages = unreadData?.data?.unread_messages || 0;

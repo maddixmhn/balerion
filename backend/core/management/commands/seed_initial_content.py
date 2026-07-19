@@ -12,8 +12,8 @@ class Command(BaseCommand):
             defaults={
                 "title_fa": "توسعه محصول دیجیتال برای کسب‌وکارهای در حال رشد",
                 "title_en": "Digital Product Engineering for Growing Businesses",
-                "subtitle_fa": "از طراحی تا پیاده‌سازی، تیم دشیار کنار شماست تا سریع‌تر به بازار برسید.",
-                "subtitle_en": "From design to deployment, Dashyar helps you ship faster with confidence.",
+                "subtitle_fa": "از طراحی تا پیاده‌سازی، تیم بالریون کنار شماست تا سریع‌تر به بازار برسید.",
+                "subtitle_en": "From design to deployment, Balerion helps you ship faster with confidence.",
                 "cta_button_text_fa": "مشاهده خدمات",
                 "cta_button_text_en": "Explore Services",
                 "secondary_button_text_fa": "شروع همکاری",
@@ -67,8 +67,8 @@ class Command(BaseCommand):
         AboutSection.objects.update_or_create(
             is_active=True,
             defaults={
-                "title_fa": "درباره دشیار",
-                "title_en": "About Dashyar",
+                "title_fa": "درباره بالریون",
+                "title_en": "About Balerion",
                 "description_fa": "ما یک تیم محصول‌محور هستیم که بر تحویل سریع، کیفیت فنی بالا و نتیجه واقعی تمرکز دارد.",
                 "description_en": "We are a product-focused team delivering fast, stable software with measurable outcomes.",
                 "projects_completed": 70,
@@ -79,9 +79,9 @@ class Command(BaseCommand):
         )
 
         ContactInfo.objects.update_or_create(
-            email="hello@dashyar.com",
+            email="hello@balerion.dev",
             defaults={
-                "phone1": "+989120000000",
+                "phone1": "+989000000000",
                 "phone2": "+989120000001",
                 "address_fa": "تهران، ایران",
                 "address_en": "Tehran, Iran",
@@ -96,8 +96,8 @@ class Command(BaseCommand):
         TeamMember.objects.update_or_create(
             order=0,
             defaults={
-                "name_fa": "تیم دشیار",
-                "name_en": "Dashyar Team",
+                "name_fa": "تیم بالریون",
+                "name_en": "Balerion Team",
                 "position_fa": "توسعه محصول",
                 "position_en": "Product Engineering",
                 "bio_fa": "تیمی چندتخصصی برای توسعه نرم‌افزار، تجربه کاربری و مقیاس‌پذیری.",

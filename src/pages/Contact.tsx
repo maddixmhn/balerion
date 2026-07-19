@@ -61,7 +61,7 @@ export default function Contact() {
   });
 
   useEffect(() => {
-    document.title = `${t('contact.title')} - Dashyar`;
+    document.title = `${t('contact.title')} - Balerion`;
   }, [t]);
 
   const handleSubmit = (event: React.FormEvent) => {
@@ -114,14 +114,14 @@ export default function Contact() {
                     <Mail className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold">{t('contact.email')}</h3>
-                      <p className="text-sm text-muted-foreground">{contactInfo.email || 'hello@dashyar.com'}</p>
+                      <p className="text-sm text-muted-foreground">{contactInfo.email || 'hello@balerion.dev'}</p>
                     </div>
                   </div>
                   <div className="flex gap-3">
                     <Phone className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold">{t('contact.phone')}</h3>
-                      <p className="text-sm text-muted-foreground">{contactInfo.phone1 || '+98 912 000 0000'}</p>
+                      <p className="text-sm text-muted-foreground">{contactInfo.phone1 || '+98 900 000 0000'}</p>
                     </div>
                   </div>
                   <div className="flex gap-3">

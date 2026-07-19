@@ -25,7 +25,7 @@ export default function About() {
   const teamMembers = Array.isArray(teamData?.data) ? teamData.data : [];
 
   useEffect(() => {
-    document.title = `${t('about.title')} - Dashyar`;
+    document.title = `${t('about.title')} - Balerion`;
   }, [t]);
 
   return (
@@ -74,8 +74,8 @@ export default function About() {
               <h2 className="text-2xl font-bold">{isRTL ? 'ماموریت ما' : 'Our Mission'}</h2>
               <p className="mt-4 text-sm leading-8 text-muted-foreground md:text-base">
                 {isRTL
-                  ? 'دشیار روی توسعه محصولاتی تمرکز دارد که سریع منتشر شوند، نگهداری ساده‌ای داشته باشند و نتیجه واقعی برای کسب‌وکار ایجاد کنند.'
-                  : 'Dashyar builds products that ship fast, stay maintainable, and create measurable business value.'}
+                  ? 'بالریون روی توسعه محصولاتی تمرکز دارد که سریع منتشر شوند، نگهداری ساده‌ای داشته باشند و نتیجه واقعی برای کسب‌وکار ایجاد کنند.'
+                  : 'Balerion builds products that ship fast, stay maintainable, and create measurable business value.'}
               </p>
               <div className="mt-6 space-y-3">
                 {[

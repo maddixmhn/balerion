@@ -50,7 +50,7 @@ export default function DashboardLayout() {
           </Button>
 
           <Link to="/" className="flex items-center gap-2 ml-4 lg:ml-0">
-            <span className="text-xl font-bold">Dashyar</span>
+            <span className="text-xl font-bold">Balerion</span>
           </Link>
 
           <div className="flex-1" />

@@ -4,13 +4,13 @@ Django settings for appb2b project.
 
 from pathlib import Path
 from datetime import timedelta
-import os
+from os import getenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-l*etj^v7$*8la084ic&khm^aj5%54m8f1&r-r=*0xwd-5!^&45')
+SECRET_KEY = getenv('DJANGO_SECRET_KEY', 'change-this-in-production')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
@@ -150,9 +150,9 @@ CSRF_TRUSTED_ORIGINS = [
 
 # Email Settings (configure for production)
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'hello@dashyar.com'
+DEFAULT_FROM_EMAIL = 'hello@balerion.dev'
 
 # Admin Settings
-ADMIN_SITE_HEADER = "Dashyar Admin"
-ADMIN_SITE_TITLE = "Dashyar Portal"
-ADMIN_INDEX_TITLE = "Welcome to Dashyar Administration"
+ADMIN_SITE_HEADER = "Balerion Admin"
+ADMIN_SITE_TITLE = "Balerion Portal"
+ADMIN_INDEX_TITLE = "Welcome to Balerion Administration"

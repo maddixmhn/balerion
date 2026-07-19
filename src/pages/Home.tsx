@@ -25,7 +25,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    document.title = `Dashyar - ${t('app.tagline')}`;
+    document.title = `Balerion - ${t('app.tagline')}`;
   }, [t]);
 
   return (

@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link to="/" className="inline-block">
               <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-                Dashyar
+                Balerion
               </span>
             </Link>
             <p className="text-muted-foreground text-sm">{t('footer.tagline')}</p>
@@ -82,14 +82,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
-                <a href="mailto:hello@dashyar.com" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                  hello@dashyar.com
+                <a href="mailto:hello@balerion.dev" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+                  hello@balerion.dev
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <a href="tel:+989120000000" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                  +98 912 000 0000
+                <a href="tel:+989000000000" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+                  +98 900 000 0000
                 </a>
               </li>
             </ul>
@@ -98,7 +98,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm text-center md:text-left">
-            &copy; {new Date().getFullYear()} Dashyar. {t('footer.rights')}
+            &copy; {new Date().getFullYear()} Balerion. {t('footer.rights')}
           </p>
           <div className="flex items-center gap-4">
             <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors text-sm">

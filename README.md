@@ -1,4 +1,4 @@
-# Dashyar (React + Django)
+# Balerion (React + Django)
 
 Fullstack bilingual website with:
 - Frontend: React + Vite + TypeScript + Tailwind

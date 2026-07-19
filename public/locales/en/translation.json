@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Dashyar",
+    "name": "Balerion",
     "tagline": "Modern Software Product Studio",
     "description": "Web, mobile, AI, and product engineering partner"
   },
@@ -18,7 +18,7 @@
   },
   "hero": {
     "title": "Build Better Digital Products",
-    "subtitle": "Dashyar helps teams launch scalable products with clear design, robust architecture, and business-focused execution.",
+    "subtitle": "Balerion helps teams launch scalable products with clear design, robust architecture, and business-focused execution.",
     "cta_primary": "Explore Services",
     "cta_secondary": "Start a Project"
   },
@@ -89,7 +89,7 @@
   },
   "about": {
     "title": "About Us",
-    "description": "Dashyar is a software studio delivering practical digital products for startups and enterprises.",
+    "description": "Balerion is a software studio delivering practical digital products for startups and enterprises.",
     "stats": {
       "projects": "Projects Delivered",
       "clients": "Happy Clients",
@@ -120,7 +120,7 @@
   "auth": {
     "login": {
       "title": "Login",
-      "subtitle": "Access your Dashyar account.",
+      "subtitle": "Access your Balerion account.",
       "email": "Email",
       "password": "Password",
       "submit": "Login",
