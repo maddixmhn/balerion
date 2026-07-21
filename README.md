@@ -68,3 +68,8 @@ You can also use env vars:
 `.github/workflows/django.yml` now runs a fullstack CI:
 - Frontend: `npm ci`, `npm run lint`, `npm run build`
 - Backend: `pip install -r backend/requirements.txt`, `manage.py check`, `manage.py test`
+
+
+## Live Demo
+
+**https://maddixmhn-balerion.vercel.app** · **https://dashyar.vercel.app**
